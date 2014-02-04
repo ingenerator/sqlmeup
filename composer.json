@@ -1,0 +1,45 @@
+{
+  "name":        "sqlmeup/sqlmeup",
+  "description": "Simple database migrations for distributed development and deployment",
+  "keywords":    ["database", "migrations", "mysql"],
+  "homepage":    "https://github.com/ingenerator/sqlmeup",
+  "type":        "library",
+  "license":     "BSD",
+  "authors":     [
+    {
+      "name":     "Andrew Coulton",
+      "email":    "andrew@ingenerator.com",
+      "homepage": "http://www.ingenerator.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.3.3"
+  },
+
+  "require-dev": {
+    "phpspec/phpspec": "2.0.*"
+  },
+
+  "suggest": {
+  },
+
+  "support": {
+    "issues": "https://github.com/ingenerator/sqlmeup/issues",
+    "source": "https://github.com/ingenerator/sqlmeup"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "SqlMeUp": "src/"
+    }
+  },
+
+  "bin": [],
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}

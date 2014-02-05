@@ -1,6 +1,6 @@
 # SqlMeUp
 
-- [Master Build Status](https://travis-ci.org/ingenerator/sqlmeup.png?branch=master)](https://travis-ci.org/ingenerator/sqlmeup)
+- [![Master Build Status](https://travis-ci.org/ingenerator/sqlmeup.png?branch=master)](https://travis-ci.org/ingenerator/sqlmeup)
 
 SqlMeUp is an opinionated database migrations tool, built from scratch to make it easier to manage database schema
 versioning in distributed development and deployment workflows. It aims to have uses minimal external dependencies and
